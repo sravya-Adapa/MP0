@@ -1,0 +1,65 @@
+/* Page background */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background: #ffffff; /* white page */
+  color: #fff;
+}
+
+/* Center the card on the page */
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+/* The gray card */
+.card {
+  width: min(90vw, 800px);
+  background: #6b6b6b;       /* grey card like the example */
+  padding: 32px 36px 40px;
+  border-radius: 8px;
+  text-align: center;         /* center image, headings, link */
+}
+
+/* Avatar image: fixed 150x150, centered */
+.avatar {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto 16px;
+}
+
+/* Headings and link styles */
+h1 {
+  margin: 8px 0 6px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  margin: 6px 0 12px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+a {
+  color: #d7cfff;
+  text-decoration: underline;
+}
+
+a.link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+/* Biography text (can be centered or left-aligned per spec) */
+.bio {
+  max-width: 700px;
+  margin: 12px auto;
+  text-align: left; /* change to center if you prefer */
+  line-height: 1.5;
+  color: #f3f3f3;
+}
